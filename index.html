@@ -367,6 +367,79 @@
             </select>
           </div>
           <div class="form-field">
+  <label for="charger">Do you need a charger supplied?</label>
+  <select id="charger" name="charger" required>
+    <option value="">Please select</option>
+    <option>Yes - supply & install</option>
+    <option>No - install only</option>
+    <option>Not sure</option>
+  </select>
+</div>
+<div class="form-field">
+  <label for="vehicle">Which electric vehicle do you have?</label>
+  <select id="vehicle" name="vehicle" required>
+    <option value="">Please select</option>
+    <option>Tesla</option>
+    <option>BMW</option>
+    <option>BYD</option>
+    <option>Hyundai</option>
+    <option>Kia</option>
+    <option>MG</option>
+    <option>Mercedes</option>
+    <option>Nissan</option>
+    <option>Polestar</option>
+    <option>Volkswagen</option>
+    <option>Volvo</option>
+    <option>Other</option>
+  </select>
+</div>
+<div class="form-field">
+  <label for="brand">Preferred charger brand</label>
+  <select id="brand" name="brand">
+    <option value="">No preference</option>
+    <option>Ohme</option>
+    <option>MyEnergi Zappi</option>
+    <option>Hypervolt</option>
+    <option>Tesla Wall Connector</option>
+    <option>Easee</option>
+    <option>Andersen</option>
+    <option>Project EV</option>
+    <option>Sync EV</option>
+    <option>Not sure</option>
+  </select>
+</div>
+<div class="form-field">
+  <label for="distance">Distance from fuse box to charger location</label>
+  <select id="distance" name="distance">
+    <option value="">Not sure</option>
+    <option>Less than 5 metres</option>
+    <option>5–10 metres</option>
+    <option>10–20 metres</option>
+    <option>More than 20 metres</option>
+  </select>
+</div>
+<div class="form-field">
+  <label for="timeframe">When would you like the installation?</label>
+  <select id="timeframe" name="timeframe">
+    <option value="">Please select</option>
+    <option>ASAP</option>
+    <option>Within 2 weeks</option>
+    <option>Within 1 month</option>
+    <option>Just comparing prices</option>
+  </select>
+</div>
+<div class="form-field">
+  <label for="photos">
+    Upload photos such as: fuse box, parking space, wall where charger will go(optional but helps us quote faster)
+  </label>
+  <input
+    type="file"
+    id="photos"
+    name="photos"
+    multiple
+    accept="image/*">
+</div>
+          <div class="form-field">
             <label for="message">Anything else we should know?</label>
             <textarea id="message" name="message" placeholder="e.g. car model, ideal install date"></textarea>
           </div>
