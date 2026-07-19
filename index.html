@@ -111,7 +111,9 @@
     position:absolute; left:24px; top:0; bottom:0; width:2px;
     background:repeating-linear-gradient(to bottom, var(--line) 0 8px, transparent 8px 16px);
   }
-  @media(min-width:860px){ .route-line{left:50%; transform:translateX(-1px);} }
+  .route-line{
+  display:none;
+}
   .junction{
     display:inline-flex; align-items:center; gap:8px;
     font-size:0.75rem; color:var(--bg);
@@ -201,7 +203,7 @@
 
 <header>
   <nav>
-    <div class="logo">MK<span>•</span>Charge</div>
+    <div class="logo">EVInstallConnect</div>
     <ul class="nav-links">
       <li><a href="#why">Why Us</a></li>
       <li><a href="#savings">Savings</a></li>
@@ -214,7 +216,7 @@
 <section class="hero">
   <div class="grid-lines" aria-hidden="true"></div>
   <div class="hero-inner">
-    <span class="eyebrow"><span class="dot"></span> Serving all of Milton Keynes</span>
+    <span class="eyebrow"><span class="dot"></span> Serving all of <em>Milton Keynes</em>.</span>
     <h1>Home EV charging, installed as smoothly as an <em>MK roundabout</em>.</h1>
     <p class="lead">OZEV-registered engineers fitting home and workplace chargers across Milton Keynes — usually within a week of your survey.</p>
     <div class="hero-ctas">
@@ -230,23 +232,23 @@
   <section id="why">
     <div class="wrap">
       <div class="section-head">
-        <span class="junction mono">H1 — WHY US</span>
+        <span class="junction mono">WHY US</span>
         <h2>Why Milton Keynes homeowners pick us</h2>
         <p>No call centres, no subcontractor roulette — the person who surveys your driveway is the person who installs your charger.</p>
       </div>
       <div class="cards">
         <div class="card">
-          <span class="junction mono">V1</span>
+          <span class="junction mono"></span>
           <h3>Local & certified</h3>
           <p>OZEV and NICEIC-registered engineers based in MK, covering Bletchley, Newport Pagnell, Woburn Sands and every grid square between.</p>
         </div>
         <div class="card">
-          <span class="junction mono">V2</span>
+          <span class="junction mono"></span>
           <h3>Fitted in days, not months</h3>
           <p>Most home installs are surveyed, approved and fitted within seven days — we'll give you a real date, not a queue number.</p>
         </div>
         <div class="card">
-          <span class="junction mono">V3</span>
+          <span class="junction mono"></span>
           <h3>Grants sorted for you</h3>
           <p>We check what you're eligible for and file the paperwork ourselves, so the grant doesn't become a second job.</p>
         </div>
@@ -257,7 +259,7 @@
   <section class="savings" id="savings">
     <div class="wrap">
       <div class="section-head">
-        <span class="junction mono">H2 — SAVINGS</span>
+        <span class="junction mono">SAVINGS</span>
         <h2>See what home charging could save you</h2>
         <p>Drag the slider to your typical weekly mileage.</p>
       </div>
@@ -299,7 +301,7 @@
   <section id="reviews">
     <div class="wrap">
       <div class="section-head">
-        <span class="junction mono">H3 — REVIEWS</span>
+        <span class="junction mono">REVIEWS</span>
         <h2>What Milton Keynes customers say</h2>
       </div>
       <div class="quotes">
@@ -320,8 +322,8 @@
   <section class="quote-section" id="quote">
     <div class="wrap">
       <div class="section-head">
-        <span class="junction mono">V6 — GET A QUOTE</span>
-        <h2>Get your free Milton Keynes quote</h2>
+        <span class="junction mono">GET A QUOTE</span>
+        <h2>Get your FREE quote</h2>
         <p>Tell us about your home or business — we reply within 24 hours with a no-obligation quote.</p>
       </div>
 
@@ -334,7 +336,7 @@
             </div>
             <div class="form-field">
               <label for="postcode">Postcode</label>
-              <input type="text" id="postcode" name="postcode" placeholder="MK9 1AB" required>
+              <input type="text" id="postcode" name="postcode" placeholder="MK0 0AB" required>
             </div>
           </div>
           <div class="form-row two">
@@ -377,12 +379,13 @@
 <footer>
   <div class="footer-grid">
     <div>
-      <h4>MK Charge</h4>
+      <h4>EVInstallConnect</h4>
       <p style="max-width:260px;">EV charger installation across Milton Keynes and surrounding villages.</p>
     </div>
     <div>
       <h4>Coverage</h4>
       <ul>
+        <li>Milton Keynes</li>
         <li>Bletchley</li>
         <li>Newport Pagnell</li>
         <li>Woburn Sands</li>
@@ -392,12 +395,11 @@
     <div>
       <h4>Contact</h4>
       <ul>
-        <li>01908 000 000</li>
-        <li>hello@mkcharge.co.uk</li>
+        <li>hello@evinstallconnect.com</li>
       </ul>
     </div>
   </div>
-  <div class="footer-bottom">© 2026 MK Charge. All rights reserved.</div>
+  <div class="footer-bottom">2026 EVInstallConnect</div>
 </footer>
 
 <script>
